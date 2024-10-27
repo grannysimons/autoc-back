@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors')
 
 var corsOptions = {
-    origin: 'http://localhost:1234',
+    origin: 'https://autocuidado.netlify.app/',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 app.use(cors(corsOptions))
